@@ -14,7 +14,7 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   line-height: 1;
-  font-weight: 400;
+  font-variation-settings: 'wdth' 400;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   color: #000;
@@ -144,7 +144,6 @@
   position: relative;
   overflow: hidden;
   background-color: #fff;
-  border: none;
   cursor: pointer;
   border: 2px solid #000;
   transition: box-shadow 0.3s ease;
